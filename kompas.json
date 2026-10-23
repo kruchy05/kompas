@@ -1,0 +1,130 @@
+{
+  "widok": "mapa",
+  "filtr": "Wszystkie",
+  "zadania": [
+    {
+      "id": "7eec0f90",
+      "tekst": "Przeczytać o pętlach w Pythonie",
+      "prio": 3,
+      "zrobione": false
+    },
+    {
+      "id": "9032b096",
+      "tekst": "Rozpisać pomysły na mapie myśli",
+      "prio": 2,
+      "zrobione": false
+    },
+    {
+      "id": "a7b48605",
+      "tekst": "Zainstalować Pythona i VS Code",
+      "prio": 2,
+      "zrobione": true
+    },
+    {
+      "id": "d20881fd",
+      "tekst": "Kupić kawę",
+      "prio": 1,
+      "zrobione": false
+    }
+  ],
+  "mapa": {
+    "wybrany": "root",
+    "wezly": [
+      {
+        "id": "root",
+        "tekst": "",
+        "x": 500,
+        "y": 300,
+        "rodzic": null,
+        "k": 4,
+        "notatka": "Przykładowa mapa. Zmień ją po swojemu."
+      },
+      {
+        "id": "a",
+        "tekst": "Python",
+        "x": 260,
+        "y": 175,
+        "rodzic": "root",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "a1",
+        "tekst": "Zmienne i pętle",
+        "x": 115,
+        "y": 75,
+        "rodzic": "a",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "a2",
+        "tekst": "Funkcje",
+        "x": 100,
+        "y": 265,
+        "rodzic": "a",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "b",
+        "tekst": "Projekty",
+        "x": 745,
+        "y": 175,
+        "rodzic": "root",
+        "k": 4,
+        "notatka": "Najlepiej uczyć się na własnych programach."
+      },
+      {
+        "id": "b1",
+        "tekst": "Lista zadań",
+        "x": 890,
+        "y": 75,
+        "rodzic": "b",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "b2",
+        "tekst": "Gra w zgadywanie",
+        "x": 880,
+        "y": 265,
+        "rodzic": "b",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "c",
+        "tekst": "Zasoby",
+        "x": 745,
+        "y": 440,
+        "rodzic": "root",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "d",
+        "tekst": "Nawyki",
+        "x": 260,
+        "y": 440,
+        "rodzic": "root",
+        "k": 4,
+        "notatka": ""
+      },
+      {
+        "id": "d1",
+        "tekst": "30 minut dziennie",
+        "x": 130,
+        "y": 540,
+        "rodzic": "d",
+        "k": 4,
+        "notatka": ""
+      }
+    ]
+  },
+  "pomodoro": {
+    "zadanie": "",
+    "data": "2026-10-13",
+    "sesje": 0
+  }
+}
